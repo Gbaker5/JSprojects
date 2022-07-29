@@ -16,7 +16,7 @@
 //Take the value from the input
 //Place the result of the conditional in the paragraph
 
-let h1Holder = document.querySelector('h1')
+let h1Holder = document.querySelector('button')
 
 h1Holder.addEventListener('click', ageChecker)
 
