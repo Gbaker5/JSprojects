@@ -25,6 +25,7 @@ function ageChecker(){
     
     if(age < 16){
         document.querySelector('p').innerText = 'You can not drive'
+        document.querySelector('img').src = 'img/drive-fast.gif'
     }else if(age < 18){
         document.querySelector('p').innerText = 'You can\'t hate from outsode of the club, because you cant get in'   
     }else if(age < 21){
