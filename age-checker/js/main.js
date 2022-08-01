@@ -30,19 +30,35 @@ function ageChecker(){
         document.querySelector('.pic3').src = 'img/myneckmyback.gif'
         document.querySelector('.pic4').src = 'img/stillcantdrive.gif'
     }else if(age < 18){
-        document.querySelector('p').innerText = 'You can\'t hate from outsode of the club, because you cant get in'
-        document.querySelector('.pic1').src = 'img/drive-fast.gif'
-        document.querySelector('.pic2').src = 'img/almost-there.gif'
-        document.querySelector('.pic3').src = 'img/myneckmyback.gif'
-        document.querySelector('.pic4').src = 'img/stillcantdrive.gif'   
+        document.querySelector('p').innerText = 'You can\'t hate from outside of the club, because you cant get in'
+        document.querySelector('.pic1').src = ''
+        document.querySelector('.pic2').src = ''
+        document.querySelector('.pic3').src = ''
+        document.querySelector('.pic4').src = ''   
     }else if(age < 21){
         document.querySelector('p').innerText = 'You can not drink'
+        document.querySelector('.pic1').src = ''
+        document.querySelector('.pic2').src = ''
+        document.querySelector('.pic3').src = ''
+        document.querySelector('.pic4').src = ''
     }else if (age < 25){
         document.querySelector('p').innerText = 'You can not rent cars affordably'
+        document.querySelector('.pic1').src = ''
+        document.querySelector('.pic2').src = ''
+        document.querySelector('.pic3').src = ''
+        document.querySelector('.pic4').src = ''
     }else if(age < 30){
         document.querySelector('p').innerText = 'You can not rent fancy cards affordably'
+        document.querySelector('.pic1').src = ''
+        document.querySelector('.pic2').src = ''
+        document.querySelector('.pic3').src = ''
+        document.querySelector('.pic4').src = ''
     }else{
         document.querySelector('p').innerText = 'There is nothing left to look forward to'
+        document.querySelector('.pic1').src = ''
+        document.querySelector('.pic2').src = ''
+        document.querySelector('.pic3').src = ''
+        document.querySelector('.pic4').src = ''
     }
 
     
