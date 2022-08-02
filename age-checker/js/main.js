@@ -31,10 +31,10 @@ function ageChecker(){
         document.querySelector('.pic4').src = 'img/stillcantdrive.gif'
     }else if(age < 18){
         document.querySelector('p').innerText = 'You can\'t hate from outside of the club, because you cant get in'
-        document.querySelector('.pic1').src = ''
-        document.querySelector('.pic2').src = ''
-        document.querySelector('.pic3').src = ''
-        document.querySelector('.pic4').src = ''   
+        document.querySelector('.pic1').src = 'img/dancingoutside.gif'
+        document.querySelector('.pic2').src = 'img/let-me-in.gif'
+        document.querySelector('.pic3').src = 'img/conanwindow.gif'
+        document.querySelector('.pic4').src = 'img/stuck-behind-bar.gif'   
     }else if(age < 21){
         document.querySelector('p').innerText = 'You can not drink'
         document.querySelector('.pic1').src = ''
