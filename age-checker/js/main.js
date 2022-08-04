@@ -37,10 +37,10 @@ function ageChecker(){
         document.querySelector('.pic4').src = 'img/stuck-behind-bar.gif'   
     }else if(age < 21){
         document.querySelector('p').innerText = 'You can not drink'
-        document.querySelector('.pic1').src = ''
-        document.querySelector('.pic2').src = ''
-        document.querySelector('.pic3').src = ''
-        document.querySelector('.pic4').src = ''
+        document.querySelector('.pic1').src = 'img/party-beer.gif'
+        document.querySelector('.pic2').src = 'img/snl-happy-birthday.gif'
+        document.querySelector('.pic3').src = 'img/you-cant-pour-bartender.gif'
+        document.querySelector('.pic4').src = 'img/drunk-straw.gif'
     }else if (age < 25){
         document.querySelector('p').innerText = 'You can not rent cars affordably'
         document.querySelector('.pic1').src = ''
