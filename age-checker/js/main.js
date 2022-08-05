@@ -55,10 +55,10 @@ function ageChecker(){
         document.querySelector('.pic4').src = 'img/lambo.gif'
     }else{
         document.querySelector('p').innerText = 'There is nothing left to look forward to'
-        document.querySelector('.pic1').src = ''
-        document.querySelector('.pic2').src = ''
-        document.querySelector('.pic3').src = ''
-        document.querySelector('.pic4').src = ''
+        document.querySelector('.pic1').src = 'img/tooold-tired.gif'
+        document.querySelector('.pic2').src = 'img/squad-30th-birthday.gif'
+        document.querySelector('.pic3').src = 'img/itsover.gif'
+        document.querySelector('.pic4').src = 'img/prime.gif'
     }
 
     
