@@ -49,10 +49,10 @@ function ageChecker(){
         document.querySelector('.pic4').src = 'img/trash-can.gif'
     }else if(age < 30){
         document.querySelector('p').innerText = 'You can not rent fancy cards affordably'
-        document.querySelector('.pic1').src = ''
-        document.querySelector('.pic2').src = ''
-        document.querySelector('.pic3').src = ''
-        document.querySelector('.pic4').src = ''
+        document.querySelector('.pic1').src = 'img/cars.gif'
+        document.querySelector('.pic2').src = 'img/aintawhip.gif'
+        document.querySelector('.pic3').src = 'img/flashy-car.gif'
+        document.querySelector('.pic4').src = 'img/lambo.gif'
     }else{
         document.querySelector('p').innerText = 'There is nothing left to look forward to'
         document.querySelector('.pic1').src = ''
