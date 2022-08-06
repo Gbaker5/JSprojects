@@ -13,6 +13,8 @@
 
 body{
   text-align: center;
+  background-image: url("../img/yellowbg2.jpeg");
+  
 }
 
 h1, h2, input, button, p, img{
