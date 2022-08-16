@@ -10,6 +10,24 @@ function run() {
 
   //Add what you should be doing - conditionals go here
 
+//have color of name be random 
+//document.querySelector('#placeToYell').innerText.color = //variable for random color
+  num = Math.random()
+  console.log(num)
+
+
+if(num < 0.2){
+  document.querySelector('#placeToYell').style.color = 'red'
+}else if(num < 0.4){
+  document.querySelector('#placeToYell').style.color = 'blue'
+}else if(num < 0.6){
+  document.querySelector('#placeToYell').style.color = 'yellow'
+}else if(num < 0.8){
+  document.querySelector('#placeToYell').style.color = 'green'
+}else{
+  document.querySelector('#placeToYell').style.color = 'purple'
+}
+
   document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
 }
 
