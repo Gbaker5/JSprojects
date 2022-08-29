@@ -12,7 +12,8 @@
 /*******************************************/
 body{
   text-align:center;
-  background-image: url(../img/21savagealbum.jpeg);
+  background-image: url(../img/21-alot.jpeg);
+  color: red;
 }
 
 
@@ -21,7 +22,7 @@ body{
 /*******************************************/
 #savageimg{
   height: 400px;
-  border:solid 50px;
+  border:solid 50px black;
  
 }
 
