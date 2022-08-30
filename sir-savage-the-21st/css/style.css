@@ -26,6 +26,7 @@ body{
  
 }
 
-#savagesays{
-  border:10px;
+p{
+  font-weight: bold;
+  font-size: 25px;
 }
