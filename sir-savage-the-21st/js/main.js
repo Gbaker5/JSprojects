@@ -10,9 +10,9 @@ savage21()
 
 const savageSays2 = document.querySelectorAll('.savageSays2')
 
-Array.from(savageSays2).forEach(element => element.addEventListener('click', aLot))
-//document.querySelector('button').addEventListener('click', aLot)
+//Array.from(savageSays2).forEach(element => element.addEventListener('click', aLot))
+document.querySelector('button').addEventListener('click', aLot)
 
 function aLot(){
-    document.querySelectorAll('.savageSays2').innerText = 'A Lot'
+    document.querySelector(savageSays2).innerText = 'A Lot'
 }
