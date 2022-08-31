@@ -8,11 +8,28 @@ function savage21(){
 }
 savage21()
 
-const savageSays2 = document.querySelectorAll('.savageSays2')
-
-//Array.from(savageSays2).forEach(element => element.addEventListener('click', aLot))
+//Adding a button that inserts texts in multiple locations
 document.querySelector('button').addEventListener('click', aLot)
 
+//make an array from text classes
+//const savageSays2Holder = Array.from.document.querySelector('.savageSays2')
+
+//or insert a paragraph/li with text
+
+//Array.from(savageSays2).forEach(element => element.addEventListener('click', aLot))
+
+
 function aLot(){
-    document.querySelector(savageSays2).innerText = 'A Lot'
+   // savageSays2Holder.forEach()
+    //const spanny = document.createElement('span')
+    //spanny.textContent = 'A lot' 
+    let para = document.getElementsByClassName('savageSays2')
+    //para.appendChild(spanny)
+    //
+   
+
+    console.log(para)
+    //document.querySelector('.savageSays2').innerText = 'A Lot'
+    console.log('A lot')
+    //console.log(savageSays2Holder)
 }
