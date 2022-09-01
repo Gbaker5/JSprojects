@@ -24,6 +24,10 @@ function aLot(){
     //const spanny = document.createElement('span')
     //spanny.textContent = 'A lot' 
     let para = document.getElementsByClassName('savageSays2')
+    let text = 'a lot'
+    //para.forEach( => )
+    
+    
     //para.appendChild(spanny)
     //
    
