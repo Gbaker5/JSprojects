@@ -23,16 +23,20 @@ function aLot(){
    // savageSays2Holder.forEach()
     //const spanny = document.createElement('span')
     //spanny.textContent = 'A lot' 
-    let para = document.getElementsByClassName('savageSays2')
+    let para = Array.from(document.getElementsByClassName('savageSays2'))
     let text = 'a lot'
-    //para.forEach( => )
+    console.log(para)
+    
+    para.forEach( obj => {
+        obj.innerText= text
+    })
     
     
     //para.appendChild(spanny)
     //
    
 
-    console.log(para)
+    //console.log(para)
     //document.querySelector('.savageSays2').innerText = 'A Lot'
     console.log('A lot')
     //console.log(savageSays2Holder)
