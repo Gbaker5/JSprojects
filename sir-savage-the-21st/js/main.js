@@ -8,36 +8,23 @@ function savage21(){
 }
 savage21()
 
-//Adding a button that inserts texts in multiple locations
+
+//Adding a button that will insert texts in multiple locations
 document.querySelector('button').addEventListener('click', aLot)
 
-//make an array from text classes
-//const savageSays2Holder = Array.from.document.querySelector('.savageSays2')
-
-//or insert a paragraph/li with text
-
-//Array.from(savageSays2).forEach(element => element.addEventListener('click', aLot))
-
-
 function aLot(){
-   // savageSays2Holder.forEach()
-    //const spanny = document.createElement('span')
-    //spanny.textContent = 'A lot' 
+   //make an array from text classes
     let para = Array.from(document.getElementsByClassName('savageSays2'))
-    let text = 'a lot'
     console.log(para)
     
+    //declare variable for insert text
+    let text = 'A lot'
+    
+    //iterate through each item in array and insert text
     para.forEach( obj => {
         obj.innerText= text
     })
     
-    
-    //para.appendChild(spanny)
-    //
-   
-
-    //console.log(para)
-    //document.querySelector('.savageSays2').innerText = 'A Lot'
     console.log('A lot')
-    //console.log(savageSays2Holder)
+
 }
