@@ -28,3 +28,7 @@ function aLot(){
     console.log('A lot')
 
 }
+
+//add button to clear
+document.querySelector('#clearbtn').addEventListener('click', clear)
+
