@@ -32,3 +32,16 @@ function aLot(){
 //add button to clear
 document.querySelector('#clearbtn').addEventListener('click', clear)
 
+function clear(){
+ //make an array from text classes
+ let para = Array.from(document.getElementsByClassName('savageSays2'))
+ console.log(para)
+ 
+ //declare variable for insert text
+ let text = ''
+ 
+ //iterate through each item in array and insert text
+ para.forEach( obj => {
+     obj.innerText= text
+ })
+}
