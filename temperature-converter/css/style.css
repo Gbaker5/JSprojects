@@ -11,7 +11,10 @@
 /* LAYOUT
 /*******************************************/
 
-
+body{
+  background-image:url(../img/temp3.webp);
+  background-size: cover
+}
 
 /******************************************
 /* ADDITIONAL STYLES
