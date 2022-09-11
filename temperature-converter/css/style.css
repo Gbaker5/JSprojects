@@ -13,7 +13,14 @@
 
 body{
   background-image:url(../img/temp3.webp);
-  background-size: cover
+  background-size: cover;
+  text-align: center;
+}
+
+table{
+  /*margin: auto 50% auto 50%;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /******************************************
