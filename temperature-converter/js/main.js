@@ -13,6 +13,6 @@ console.log(initialD)
 convertedNum = (9*initialD)/5 +32
 console.log(convertedNum)
 //display new conversion in dom 
-
+document.querySelector('#Celsius').innerText = `${convertedNum}+ &degree;C`
 }
  
