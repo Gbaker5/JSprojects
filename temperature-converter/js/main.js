@@ -31,9 +31,9 @@ initialD = Number(document.querySelector('#F-input').value)
 console.log(initialD)
 
 //convert number using formula and hold in variable
-convertedNum = 
+convertedNum = (initialD-32)*5/9
 console.log(convertedNum)
 
 //display new conversion in dom 
-document.querySelector('#Fahrenheit').innerText = `${convertedNum}\u00B0C`
+document.querySelector('#Celsius').innerText = `${convertedNum}\u00B0C`
 }
