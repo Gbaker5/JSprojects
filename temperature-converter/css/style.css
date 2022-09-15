@@ -24,6 +24,13 @@ table{
   margin-right: auto;
 }
 
+#Fahrenheit{
+ font-size: 100px;
+}
+
+#Celsius{
+font-size:100px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
