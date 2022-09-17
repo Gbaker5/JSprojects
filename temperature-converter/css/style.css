@@ -18,12 +18,22 @@ body{
   color:white;
 }
 
-table{
+table, tr, th, td{
   /*margin: auto 50% auto 50%;*/
   margin-left: auto;
   margin-right: auto;
+  border: solid 1px white;
 }
 
+
+
+h1{
+font-size: 100px;
+}
+
+p{
+  font-size: 50px;
+}
 #Fahrenheit{
  font-size: 100px;
 }
