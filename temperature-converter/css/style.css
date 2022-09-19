@@ -25,7 +25,13 @@ table, tr, th, td{
   border: solid 1px white;
 }
 
+.convert-box{
+  border-top: none;
+}
 
+.input-box{
+  border-bottom: none;
+}
 
 h1{
 font-size: 100px;
