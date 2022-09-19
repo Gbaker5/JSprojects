@@ -25,6 +25,10 @@ table, tr, th, td{
   border: solid 1px white;
 }
 
+th{
+  background-image: linear-gradient(to right, red , yellow)
+}
+
 .convert-box{
   border-top: none;
 }
