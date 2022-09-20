@@ -25,8 +25,12 @@ table, tr, th, td{
   border: solid 1px white;
 }
 
-th{
+.th1{
   background-image: linear-gradient(to right, red , yellow)
+}
+
+.th2{
+  background-image: linear-gradient(to right, yellow, red)
 }
 
 .convert-box{
