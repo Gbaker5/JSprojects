@@ -10,15 +10,12 @@ function CtoF(){
 
 //take value from input
 initialD = Number(document.querySelector('#C-input').value)
-console.log(initialD)
 
 //convert number using formula and hold in variable
 convertedNum = (9*initialD)/5 +32
-console.log(convertedNum)
 
 //round to one decimal
 oneDecimal = Number(convertedNum.toFixed(1))
-console.log(oneDecimal)
 
 //display new conversion in dom 
 document.querySelector('#Fahrenheit').innerText = `${oneDecimal}\u00B0F`
@@ -34,15 +31,12 @@ function FtoC(){
 
 //take value from input
 initialD = Number(document.querySelector('#F-input').value)
-console.log(initialD)
 
 //convert number using formula and hold in variable
 convertedNum = (initialD-32)*5/9
-console.log(convertedNum)
 
 //round to one decimal
 oneDecimal = Number(convertedNum.toFixed(1))
-console.log(oneDecimal)
 
 //display new conversion in dom 
 document.querySelector('#Celsius').innerText = `${oneDecimal}\u00B0C`

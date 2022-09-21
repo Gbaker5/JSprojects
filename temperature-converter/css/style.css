@@ -25,6 +25,14 @@ table, tr, th, td{
   border: solid 1px white;
 }
 
+th{
+  font-size: 30px;
+}
+
+span{
+  color:black;
+}
+
 .th1{
   background-image: linear-gradient(to right, red , yellow)
 }
